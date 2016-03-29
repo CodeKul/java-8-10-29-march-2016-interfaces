@@ -25,4 +25,4 @@ public class Locator {
             car.getLocation();
         }
     }
-}b          
+}          
