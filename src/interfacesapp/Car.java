@@ -24,4 +24,16 @@ public class Car implements GpsLocation{
         
         System.out.println("On street");
     }
+
+    @Override
+    public void getVendor() {
+        
+        System.out.println("Intel");
+    }
+
+    @Override
+    public void troubleShoot() {
+        
+        System.out.println("no defect");
+    }
 }

@@ -23,4 +23,15 @@ public class Animal implements GpsLocation{
     public void getLocation() {
         System.out.println("In Jungle");
     }
+
+    @Override
+    public void getVendor() {
+
+        System.out.println("Intel");
+    }
+
+    @Override
+    public void troubleShoot() {
+        System.out.println("no defect");
+    }
 }

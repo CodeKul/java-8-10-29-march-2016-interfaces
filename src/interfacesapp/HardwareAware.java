@@ -9,10 +9,7 @@ package interfacesapp;
  *
  * @author aniruddha
  */
-public /*abstract*/ interface GpsLocation extends HardwareAware,DefectInformer{
- 
-    /*public static final */ int GL_CIRCUM = 3;
+public interface HardwareAware {
     
-    /* public abstract*/ void getLocation();
-    
+    void getVendor();
 }
